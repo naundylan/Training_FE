@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+.main_menu a {
+    display: block;
+    padding: 40px 20px;
+    text-decoration: none;
+    position: relative;
+    font-size: 18px;
+}
+.main_menu a::before {
+    content: "";
+    color: #6f3dbc;
+    width: 100%;
+    height: 10px;
+    position: absolute;
+}
+        h2:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: auto; /*change here*/
+  right: 0;/*change here*/
+  width: 0;
+  height: 10%;
+  background-color: #e74c3c;
+  transition: .25s;
+  z-index: -1;
+}
+h2:hover:before {
+  width: 100%;
+  left: 0;/*change here*/
+  right: auto;/*change here*/
+}
+    </style>
+</head>
+<body>
+    <div class="main_menu">
+        <a href="#">chvbfb</a>
+    </div>
+    <h2>
+        thsiscndkfjn
+    </h2>
+</body>
+</html>
